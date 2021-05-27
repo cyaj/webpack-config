@@ -21,8 +21,8 @@ devtool: 'eval-source-map'
 ```
 或者
 ```js
-mode: 'production',
-devtool: 'source-map'
+mode: 'production',
+devtool: 'source-map'
 // devtool: ' nosources-source-map'  不暴露源码
 ```
 > 在生产环境下，如果省略了 devtool 选项，则最终生成的文件中不包含 Source Map
